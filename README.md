@@ -36,9 +36,11 @@ input = "a = 5, b = 2"
 
 prompt = f"""
     ### Instruction:
-    Use the Task below and the Input given to write the Response, which is a programming code that can solve the Task.,
+    Use the Task below and the Input given to write the Response, which is a programming code that can solve the Task.
+
     ### Task:
     {instruction}
+
     ### Input:
     {input}
     
